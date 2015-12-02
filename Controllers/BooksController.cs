@@ -12,7 +12,7 @@ namespace ElmahTests.Controllers
         public string Get()
         {
             // http://stackoverflow.com/a/15583497/188740
-            throw new InvalidOperationException();
+            throw new InvalidProgramException();
             return "Books";
         }
     }
