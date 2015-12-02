@@ -15,6 +15,7 @@ namespace ElmahTests.Controllers
 
         public ActionResult About()
         {
+            throw new InvalidOperationException();
             ViewBag.Message = "Your application description page.";
 
             return View();
